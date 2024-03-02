@@ -1,4 +1,5 @@
-import Titleandparagraph from "../common/Titleandparagraph";
+import Titleandparagraph from "../common/TitleAndParagraph";
+import VideoButton from "../common/VideoButton";
 
 function Howdoesitwork() {
   return (
@@ -220,10 +221,10 @@ function Howdoesitwork() {
           </div>
         </div>
       </div>
-      <div className="mt-[46px]">
+      <div className="mt-[46px] w-full flex justify-center">
         {/* Watch video */}
 
-        <button className="max-w-[184px] w-full bg-[#D8DBFB] px-[18px] py-[10px] rounded-[6px] flex items-center gap-[6px]">
+        {/* <button className="max-w-[184px] w-full bg-[#D8DBFB] px-[18px] py-[10px] rounded-[6px] flex items-center gap-[6px]">
           <svg
             width="15"
             height="14"
@@ -240,7 +241,8 @@ function Howdoesitwork() {
           <div className="  text-[16px] font-[600] text-[#000000]">
             Watch Video
           </div>
-        </button>
+        </button> */}
+        <VideoButton text={"Watch Video"} styles={"max-w-[184px]"} />
       </div>
     </div>
   );

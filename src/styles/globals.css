@@ -4,13 +4,36 @@
 
 
 .swiper{
-   padding-bottom: 50px !important;
+   padding-bottom: 35px !important;
 }
 .swiper-container {
     overflow: visible;
   }
   .swiper-pagination {
-    position:10px !important;
     z-index: 10 !important;
-    left: -230px !important;
+    left: -268px !important;
+    max-height: 10px;
+   
   }
+  .swiper-pagination-bullet{
+    width: 6px !important;
+    height: 6px !important;
+    background:rgba(5, 125, 243, 1) !important;
+    margin:0 5px 1.5px auto !important;
+  }
+  .swiper-pagination-bullet-active{
+    width: 10px !important;
+    height: 10px !important;
+    background:rgba(5, 125, 243, 1) !important;
+    margin:0 5px 0 auto !important;
+  }
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-track {
+  background: #D8DBFB;
+}
+::-webkit-scrollbar-thumb {
+  background: #057DF3; 
+  border-radius: 3px;
+}

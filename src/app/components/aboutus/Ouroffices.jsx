@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Titleandparagraph from "../common/Titleandparagraph";
+import Titleandparagraph from "../common/TitleAndParagraph";
 
 import scatterchart from "../../../../public/aboutus/OurOffices/scatterchart.png";
 

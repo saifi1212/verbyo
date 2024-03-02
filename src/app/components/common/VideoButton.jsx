@@ -1,11 +1,21 @@
+"use client";
 import { popins } from "@/app/layout";
-import Link from "next/link";
+import { useRouter } from "next/navigation";
 
-function VideoButton({ text, href, extraClasses }) {
+function VideoButton({ text, href, styles, handleClick }) {
+  const router = useRouter();
+  const handleButtonClick = () => {
+    {
+      handleClick && handleClick();
+    }
+    {
+      href && router.push(href);
+    }
+  };
   return (
-    <Link
-      href={`${href}`}
-      className={` ${extraClasses} ${popins.className} bg-[#D8DBFB] max-w-[184px] w-full px-[28.5px] py-[10px] rounded-[6px]  gap-[6px] flex justify-center items-center`}
+    <button
+      onClick={handleButtonClick}
+      className={`${styles} ${popins.className} w-full bg-[#D8DBFB] hover:bg-[#b9bde5] transition-all duration-300 ease-in  min-h-[44px] rounded-[6px]  gap-[6px] flex justify-center items-center`}
     >
       <div className="max-w-[16px] w-full flex justify-center items-center ">
         <svg
@@ -22,10 +32,8 @@ function VideoButton({ text, href, extraClasses }) {
         </svg>
       </div>
 
-      <div className=" max-w-[127px] w-full flex  items-center  text-[16px] font-[600] text-[#000000]">
-        {text}
-      </div>
-    </Link>
+      <p className="flex  items-center  font-[600] text-[#000000]">{text}</p>
+    </button>
   );
 }
 

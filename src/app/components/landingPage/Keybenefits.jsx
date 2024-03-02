@@ -1,4 +1,4 @@
-import Titleandparagraph from "../common/Titleandparagraph";
+import Titleandparagraph from "../common/TitleAndParagraph";
 
 function Keybenefits() {
   const maindata = [
@@ -71,27 +71,26 @@ function Keybenefits() {
 
       <div className="mt-[69px] w-full grid grid-cols-3  gap-x-[60px] gap-y-[52px]">
         {maindata.map((items, id) => {
-          return(
+          return (
             <div className="max-w-[315px] w-full flex gap-[20px] flex-col cursor-pointer hover:scale-105 transition-transform duration-300 ease-in-out  ">
-            {/* number */}
-            <div className="max-w-[50px] w-full px-[14px] py-[13px] bg-[#EFF0FC] rounded-[5px] items-center">
-              <div className="max-w-[22px] w-full font-[700] text-[20px] leading-[24px] text-[#9BA2EA] justify-center items-center flex">
-                {items.no}
+              {/* number */}
+              <div className="max-w-[50px] w-full px-[14px] py-[13px] bg-[#EFF0FC] rounded-[5px] items-center">
+                <div className="max-w-[22px] w-full font-[700] text-[20px] leading-[24px] text-[#9BA2EA] justify-center items-center flex">
+                  {items.no}
+                </div>
               </div>
-            </div>
 
-            {/* content */}
-            <div className="max-w-[315px] w-full flex flex-col gap-[8px]">
-              <div className=" w-full font-[700] text-[24px] leading-[24.4px]">
-                {items.title}
-              </div>
-              <div className="max-w-[315px] w-full font-[400] text-[18px] text-[#5E5D6D]">
-                {items.para}
+              {/* content */}
+              <div className="max-w-[315px] w-full flex flex-col gap-[8px]">
+                <div className=" w-full font-[700] text-[24px] leading-[24.4px]">
+                  {items.title}
+                </div>
+                <div className="max-w-[315px] w-full font-[400] text-[18px] text-[#5E5D6D]">
+                  {items.para}
+                </div>
               </div>
             </div>
-          </div>
-          )
-          
+          );
         })}
       </div>
     </div>

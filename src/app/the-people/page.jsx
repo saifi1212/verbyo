@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Titleandparagraph from "../components/common/Titleandparagraph";
+import Titleandparagraph from "../components/common/TitleAndParagraph";
 import Verbyoecosystem from "../components/aboutus/Verbyoecosystem";
 import Ourpledgetotheworld from "../components/aboutus/Ourpledgetotheworld";
 import OurOffices from "../components/aboutus/Ouroffices";
@@ -33,32 +33,28 @@ function People() {
   ];
   return (
     <>
-    <Header/>
-    <div className="max-w-[1280px] w-full mx-auto   ">
-      {/* about us */}
-      <Verbyocommon
-        heading={"About Us"}
-        paragraph={
-          "Verbyo is the only marketing platform that allows advertisers, content creators, non-profit organizations, government and local authorities to distribute their message organically across all major social media platforms through the help of real authentic people."
-        }
-        btntext={"Create Account"}
-        videbtntext={"Watch Video"}
-        extraClasses={"pb-[50px]"}
-        extraClassespara={
-          "max-w-[924px]  w-full flex justify-end text-[18px] font-[400] leading-[28px] "
-        }
-      />
-
-      
-
-      
-    </div>
+      <Header />
+      <div className="max-w-[1280px] w-full mx-auto   ">
+        {/* about us */}
+        <Verbyocommon
+          heading={"About Us"}
+          paragraph={
+            "Verbyo is the only marketing platform that allows advertisers, content creators, non-profit organizations, government and local authorities to distribute their message organically across all major social media platforms through the help of real authentic people."
+          }
+          btntext={"Create Account"}
+          videbtntext={"Watch Video"}
+          extraClasses={"pb-[50px]"}
+          extraClassespara={
+            "max-w-[924px]  w-full flex justify-end text-[18px] font-[400] leading-[28px] "
+          }
+        />
+      </div>
     </>
   );
 }
 
 export default People;
-// images about-us and 
+// images about-us and
 // comp AboutComp
 // variables aboutUs
 // Files if react component then first lettor capital else small letter

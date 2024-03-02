@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Titleandparagraph from "../common/Titleandparagraph";
+import Titleandparagraph from "../common/TitleAndParagraph";
 import Button from "../common/Button";
 
 const Organicdistribution = () => {

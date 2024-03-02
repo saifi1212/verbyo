@@ -9,8 +9,8 @@ import { Pagination } from "swiper/modules";
 
 function Swipper() {
   return (
-    <div className="">
-      <div className="max-w-[1713px] w-full     ">
+    <div>
+      <div className="max-w-[1713px] w-full">
         <Swiper
           modules={[Pagination]}
           spaceBetween={50}
@@ -22,42 +22,42 @@ function Swipper() {
         >
           <SwiperSlide>
             <img
-              src="/Videos - Hero1.png"
+              src="/swiper-slide1.png"
               alt=""
               className=" min-h-[540px] max-h-[540px] w-full"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
-              src={"/Videos - Hero.png"}
+              src={"/swiper-slide2.png"}
               alt=""
               className="min-h-[540px] max-h-[540px] w-full"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
-              src={"/Videos - Hero1.png"}
+              src={"/swiper-slide1.png"}
               alt=""
               className="min-h-[540px] max-h-[540px]"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
-              src={"/Videos - Hero.png"}
+              src={"/swiper-slide2.png"}
               alt=""
               className="min-h-[540px] max-h-[540px] w-full"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
-              src={"/Videos - Hero1.png"}
+              src={"/swiper-slide1.png"}
               alt=""
               className="min-h-[540px] max-h-[540px]"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
-              src={"/Videos - Hero1.png"}
+              src={"/swiper-slide2.png"}
               alt=""
               className="min-h-[540px] max-h-[540px]"
             />

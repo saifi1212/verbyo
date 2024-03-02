@@ -1,4 +1,4 @@
-import Titleandparagraph from "../common/Titleandparagraph";
+import Titleandparagraph from "../common/TitleAndParagraph";
 import Verbyoecosystemcomponent from "./Verbyoecosystemcomponent";
 import digital from "../../../../public/aboutus/verbyoDigitalFoundation/Digital.png";
 
