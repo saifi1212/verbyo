@@ -1,5 +1,5 @@
 import Header from "@/app/components/common/Header";
-import "../styles/globals.css";
+import "./styles/globals.css";
 import { Inter } from "next/font/google";
 import { Montserrat } from "next/font/google";
 import { Poppins } from "next/font/google";

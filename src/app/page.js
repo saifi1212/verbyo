@@ -17,7 +17,7 @@ export default function Home() {
       <Organicdistribution />
       <Keybenefits />
       <FreeAdvertizing />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
