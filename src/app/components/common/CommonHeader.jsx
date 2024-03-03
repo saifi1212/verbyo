@@ -1,6 +1,6 @@
 import { popins } from "../../layout";
 
-const TitleAndParagraph = ({
+const CommonHeader = ({
   title,
   para,
   stylesForMain,
@@ -31,4 +31,4 @@ const TitleAndParagraph = ({
   );
 };
 
-export default TitleAndParagraph;
+export default CommonHeader;

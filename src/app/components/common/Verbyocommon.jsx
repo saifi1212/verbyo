@@ -1,5 +1,5 @@
 import Button from "./Button";
-import TitleAndParagraph from "./TitleAndParagraph";
+import TitleAndParagraph from "./CommonHeader";
 import VideoButton from "./VideoButton";
 
 function Verbyocommon({

@@ -1,4 +1,4 @@
-import TitleAndParagraph from "../common/TitleAndParagraph";
+import TitleAndParagraph from "../common/CommonHeader";
 
 function KeyBenefits() {
   const maindata = [
