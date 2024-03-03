@@ -11,7 +11,6 @@ function Advertising() {
     {
       id: 0,
       title: "Security First ",
-
       imgUrl: "/advertise/auth.svg",
     },
     {
@@ -31,27 +30,27 @@ function Advertising() {
     },
   ];
   return (
-    <div className="flex w-full mx-auto max-w-[1280px] items-center mt-[218px] gap-[47px]">
+    <div className="flex w-full mx-auto max-w-[1254px] items-center justify-between mt-[218px] gap-[47px]">
       {/* left div */}
       <div className="">
-        <div className="max-w-[561px] w-full font-[700] text-[36px] text-[#1C1934] ">
+        <h1 className="max-w-[561px] w-full font-[700] text-[36px] text-[#1C1934] leading-[43.88px]">
           Advertising made with real people. Meet the community.
-        </div>
+        </h1>
         {/* para */}
-        <div className="max-w-[651px] w-full text-[#5E5D6D] text-[18px] font-[400] capitalize mt-[35px] leading-[28.5px]">
+        <p className="max-w-[651px] w-full text-[#5E5D6D] text-[18px] font-[400] capitalize mt-[35px] leading-[28.8px]">
           The people posting your campaign on their social media accounts are
           everyday individuals.
           <span className="text-[black]">
             They represent around 82% of social media users on platforms,
           </span>
           which makes them a powerful resources in advertising.
-        </div>
+        </p>
         {/* Authenticity and reliability */}
         <div className="w-full flex flex-col gap-[20px] max-w-[440px] mt-[49px]">
           {maindata.map((items, id) => {
             return (
               <>
-                <div className="w-full flex max-w-[440px] justify-between">
+                <div className="w-full flex max-w-[440px] justify-between items-center">
                   <div className="max-w-[34px] w-full">
                     <img src={items.imgUrl} alt="" />
                   </div>
@@ -86,14 +85,14 @@ function Advertising() {
       </div>
       {/* right -div */}
       <div className="max-w-[555px] w-full  ">
-        <div className="absolute ">
+        <div className="absolute mt-[-40px]">
           <Image
             width={140}
             height={138.39}
             src={"/advertise/dots-video-back.svg"}
           />
         </div>
-        <div className="mt-[40px]   flex justify-center items-center ">
+        <div className="   flex justify-center items-center ">
           {" "}
           <Image
             width={457}

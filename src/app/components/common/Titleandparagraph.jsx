@@ -17,7 +17,7 @@ const Titleandparagraph = ({
         className={`${
           stylesForTitle
             ? stylesForTitle
-            : "text-[36px] font-[700] leading-[46.69px]"
+            : "sm:text-[36px] text-[26px] leading-[33.72px]  font-[700] sm:leading-[46.69px]"
         }  w-full  text-[#1C1934] text-center capitalize `}
       >
         {title}{" "}

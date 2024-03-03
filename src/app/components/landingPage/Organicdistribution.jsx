@@ -2,7 +2,7 @@ import Image from "next/image";
 import Titleandparagraph from "../common/TitleAndParagraph";
 import Button from "../common/Button";
 
-const Organicdistribution = () => {
+const OrganicDistribution = () => {
   const maindata = [
     {
       id: 0,
@@ -32,16 +32,16 @@ const Organicdistribution = () => {
     <div className="max-w-[1280px] w-full mx-auto mt-[187px] flex flex-col  items-center">
       <Titleandparagraph
         title={"Organic Distribution Marketing Campaigns"}
-        extraClassestitle={"text-[36px]  leading-[46.5px] text-[36px] "}
-        extraClassespara={"max-w-[900px] font-[400] leading-[30px]"}
+        stylesForMain={"max-w-[900px] "}
+        stylesForPara={"text-[18px] leading-[30px] mt-[20px]"}
         para={
           "Promote your brand worldwide with our unique campaigns, reaching millions of authentic voices. Verbyo offers accounts tailored for Advertisers, Foundations, and Local Authorities. Our platform is designed for ease of use, enabling you to create, launch, and track campaigns effortlessly."
         }
       />
-      <div className="w-full flex justify-between  flex-wrap">
+      <div className="w-full flex justify-between  flex-wrap mt-[64px]">
         {maindata.map((items, id) => {
           return (
-            <div className="max-w-[413px] w-full bg-[#EFF0FC] px-[32px] py-[40px] rounded-[20px]  flex flex-col gap-[30px] mt-[64px]">
+            <div className="max-w-[413px] w-full bg-[#EFF0FC] px-[32px] py-[40px] rounded-[20px]  flex flex-col gap-[30px] ">
               <img src={items.imgUrl} alt="" />
 
               <div className="max-w-[341px] w-full flex flex-col gap-[15px]">
@@ -55,10 +55,7 @@ const Organicdistribution = () => {
                 </div>
               </div>
               <div className="w-full flex justify-center items-center">
-                <Button
-                  text={"Learn More"}
-                  extraClasses={"rounded-[6px] leading-[28.8px]"}
-                />
+                <Button text={"Learn More"} style={"max-w-[184px]"} />
               </div>
             </div>
           );
@@ -79,12 +76,7 @@ const Organicdistribution = () => {
                 specific social media platform.
               </div>
             </div>
-            <div className="w-full flex  items-center">
-              <Button
-                text={"Learn More"}
-                extraClasses={"rounded-[6px] leading-[28.8px]"}
-              />
-            </div>
+            <Button text={"Learn More"} style={"max-w-[184px]"} />
           </div>
 
           {/* img */}
@@ -106,10 +98,7 @@ const Organicdistribution = () => {
             </div>
           </div>
           <div className="w-full flex justify-center items-center">
-            <Button
-              text={"Learn More"}
-              extraClasses={"rounded-[6px] leading-[28.8px]"}
-            />
+            <Button text={"Learn More"} style={"max-w-[184px]"} />
           </div>
         </div>
       </div>
@@ -117,4 +106,4 @@ const Organicdistribution = () => {
   );
 };
 
-export default Organicdistribution;
+export default OrganicDistribution;

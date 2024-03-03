@@ -33,7 +33,7 @@ function Swipper() {
               <img
                 src={item}
                 alt=""
-                className=" min-h-[540px] max-h-[540px] w-full max-w-[860px] min-w-[850px]"
+                className=" min-h-[540px] max-h-[540px] w-full max-w-[860px] "
               />
             </SwiperSlide>
           ))}

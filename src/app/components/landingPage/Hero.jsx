@@ -8,12 +8,14 @@ function Hero() {
   return (
     <div className="max-w-[1280px] w-full mx-auto mt-[80px] flex flex-col  items-center">
       {/*Title- Organic Word-of-Mouth social media advertising campaigns */}
+      
+
       <Titleandparagraph
         title={"Organic Word-of-Mouth social media advertising campaigns"}
         para={
           "advertise your brand organically by asking people to share your posts on their personal social media accounts on all major social media platform."
         }
-        stylesForPara={"mt-[21px] text-[18px] leading-[28.8px]"}
+        stylesForPara={"mt-[21px] xl:px-0 px-[30px] sm:text-[18px] text-[16px] sm:leading-[28.8px] leading-[24px]"}
         stylesForMain={"max-w-[921px] w-full "}
       />
       {/* for Content Creator-video */}

@@ -1,6 +1,6 @@
 import Titleandparagraph from "../common/TitleAndParagraph";
 
-function Keybenefits() {
+function KeyBenefits() {
   const maindata = [
     {
       id: 0,
@@ -62,8 +62,8 @@ function Keybenefits() {
     <div className="max-w-[1065px] w-full mx-auto mt-[148px] flex flex-col  items-center">
       <Titleandparagraph
         title={"Key benefits of social organic campaigns"}
-        extraClassestitle={"text-[36px]  leading-[46.5px] text-[36px] "}
-        extraClassespara={"max-w-[916px] font-[400] leading-[30px]"}
+        stylesForMain={"max-w-[900px]"}
+        stylesForPara={"mt-[17px] text-[18px] leading-[30px]"}
         para={
           "Organic distribution campaigns can be a powerful way to build and engage an audience, foster trust, and achieve sustainable growth without the immediate costs associated with paid advertising strategies"
         }
@@ -97,4 +97,4 @@ function Keybenefits() {
   );
 }
 
-export default Keybenefits;
+export default KeyBenefits;

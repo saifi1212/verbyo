@@ -4,7 +4,7 @@ import Button from "./Button";
 
 function Header() {
   return (
-    <div className="mx-auto max-w-[1339px] w-full  flex justify-between mt-[41px] ">
+    <div className="mx-auto max-w-[1339px] w-full  flex justify-between mt-[41px] 2xl:px-[0px] pl-[16px] pr-[19px] xl:gap-[61px] gap-[33px]">
       {/* left-side */}
       <Link
         href={"/"}
@@ -24,17 +24,17 @@ function Header() {
         </div>
       </Link>
       {/* right-side */}
-      <div className="max-w-[811px] w-full gap-[61px] flex">
+      <div className="max-w-[811px] lg:flex hidden w-full xl:gap-[61px] gap-[33px]  justify-between">
         {/* options */}
-        <div className="max-w-[485px] w-full flex   gap-[20px] justify-between items-center">
+        <div className="max-w-[488px] w-full flex   gap-[20px] justify-between items-center">
           <Link
-            href={"/marketing-campaigns"}
+            href={"/"}
             className=" text-[#5E5D6D] font-[400] text-[14px] hover:text-[#000] hover:font-medium  transition-all duration-300 ease-in"
           >
             Marketing Campaigns
           </Link>
           <Link
-            href={"/ad-manager"}
+            href={"/"}
             className="  text-[#5E5D6D] font-[400] text-[14px] leading-[21px] hover:text-[#000] hover:font-medium  transition-all duration-300 ease-in"
           >
             Ad Manager
@@ -66,6 +66,39 @@ function Header() {
           />
         </div>
       </div>
+      {/* <div className="flex flex-col gap-[6px] items-end max-h-[35px] justify-between">
+        <div className="min-h-[6px] rounded-[10px] w-[20px] bg-black"/>
+        <div className="min-h-[6px] rounded-[10px] w-[35px] bg-black"/>
+        <div className="min-h-[6px] rounded-[10px] w-[50px] bg-black"/>
+      </div> */}
+      <button className="w-fit active:scale-[0.7] block lg:hidden duration-200 ease-in-out transition-all">
+        <svg
+          width={42}
+          height={33}
+          viewBox="0 0 42 33"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M39 3L25.5 3"
+            stroke="black"
+            strokeWidth={5}
+            strokeLinecap="round"
+          />
+          <path
+            d="M39 16.5L12 16.5"
+            stroke="black"
+            strokeWidth={5}
+            strokeLinecap="round"
+          />
+          <path
+            d="M39 30L3 30"
+            stroke="black"
+            strokeWidth={5}
+            strokeLinecap="round"
+          />
+        </svg>
+      </button>
     </div>
   );
 }

@@ -15,7 +15,7 @@ const Button = ({ text, style, href, handleClick }) => {
   return (
     <button
       onClick={handleButtonClick}
-      className={`${style} ${popins.className} text-[#fff] transition-all duration-300 ease-in bg-[#057DF3] hover:bg-[#0554f3] rounded-[6px]   font-[600]   w-full justify-center items-center  flex min-h-[44px]`}
+      className={`${style} ${popins.className} ${!style?.includes("text-[#057DF3]")&&"text-[#fff]"} transition-all duration-300 ease-in bg-[#057DF3] hover:bg-[#0554f3] rounded-[6px]   font-[600]   w-full justify-center items-center  flex min-h-[44px]`}
     >
       {text}
     </button>
