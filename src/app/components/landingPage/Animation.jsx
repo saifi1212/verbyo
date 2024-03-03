@@ -22,7 +22,7 @@ const Animation = () => {
       extraClasses: "mt-[21px]",
       position: "left-[-14px]",
       desce:
-        "Monitor your campaign's performance through your personalized dashboard.",
+        "Monitor your campaigns performance through your personalized dashboard.",
     },
   ];
   return (
