@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Titleandparagraph from "../common/TitleAndParagraph";
+import TitleAndParagraph from "../common/TitleAndParagraph";
 
 import scatterchart from "../../../../public/aboutus/OurOffices/scatterchart.png";
 
@@ -26,7 +26,7 @@ function OurOffices() {
     <div className="w-full mx-auto mt-[150px]">
       {/* Our Offices*/}
       <div className=" w-full  mx-auto mt-[10px]  ">
-        <Titleandparagraph
+        <TitleAndParagraph
           extraClassestitle={"font-[700] text-[34px] leading-[44.1px]"}
           title={"Our Offices"}
           extraClasses={"font-[400] text-[18px]  "}

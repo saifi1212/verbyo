@@ -1,4 +1,4 @@
-import Titleandparagraph from "../common/TitleAndParagraph";
+import TitleAndParagraph from "../common/TitleAndParagraph";
 import Verbyoecosystemcomponent from "./Verbyoecosystemcomponent";
 import digital from "../../../../public/aboutus/verbyoDigitalFoundation/Digital.png";
 
@@ -8,7 +8,7 @@ function Ourledgetotheworld() {
       {/* Our pledge to the world */}
       <div className=" max-w-[1280px] w-full ">
         <div className="max-w-[1280px]  w-full  mx-auto mt-[100px]  ">
-          <Titleandparagraph
+          <TitleAndParagraph
             extraClassestitle={"normal-case"}
             title={"Our pledge to the world"}
             extraClasses={"font-[400] text-[18px]  "}

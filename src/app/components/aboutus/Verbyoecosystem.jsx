@@ -1,4 +1,4 @@
-import Titleandparagraph from "../common/TitleAndParagraph";
+import TitleAndParagraph from "../common/TitleAndParagraph";
 import Verbyoecosystemcomponent from "./Verbyoecosystemcomponent";
 import verbyoforbussiness from "../../../../public/aboutus/Verbyo For Business/VerbyoForBusiness.png";
 import verbyoapp from "../../../../public/aboutus/Verbyo For Business/VerbyoApp.png";
@@ -11,7 +11,7 @@ function Verbyoecosystem() {
       {/* Verbyo Ecosystem */}
       <div className=" max-w-[1280px] w-full ">
         <div className="max-w-[1280px]  w-full  mx-auto mt-[100px]  ">
-          <Titleandparagraph
+          <TitleAndParagraph
             title={"Verbyo Ecosystem"}
             extraClasses={"font-[400] text-[18px]  "}
             extraClassespara={"max-w-[900px]  w-full flex justify-end  "}

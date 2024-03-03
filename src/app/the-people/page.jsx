@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Titleandparagraph from "../components/common/TitleAndParagraph";
+import TitleAndParagraph from "../components/common/TitleAndParagraph";
 import Verbyoecosystem from "../components/aboutus/Verbyoecosystem";
 import Ourpledgetotheworld from "../components/aboutus/Ourpledgetotheworld";
 import OurOffices from "../components/aboutus/Ouroffices";

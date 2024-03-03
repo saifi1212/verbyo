@@ -1,6 +1,6 @@
 import { popins } from "../../layout";
 
-const Titleandparagraph = ({
+const TitleAndParagraph = ({
   title,
   para,
   stylesForMain,
@@ -31,4 +31,4 @@ const Titleandparagraph = ({
   );
 };
 
-export default Titleandparagraph;
+export default TitleAndParagraph;

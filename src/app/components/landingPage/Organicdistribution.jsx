@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Titleandparagraph from "../common/TitleAndParagraph";
+import TitleAndParagraph from "../common/TitleAndParagraph";
 import Button from "../common/Button";
 
 const OrganicDistribution = () => {
@@ -30,7 +30,7 @@ const OrganicDistribution = () => {
   ];
   return (
     <div className="max-w-[1280px] w-full mx-auto mt-[187px] flex flex-col  items-center">
-      <Titleandparagraph
+      <TitleAndParagraph
         title={"Organic Distribution Marketing Campaigns"}
         stylesForMain={"max-w-[900px] "}
         stylesForPara={"text-[18px] leading-[30px] mt-[20px]"}

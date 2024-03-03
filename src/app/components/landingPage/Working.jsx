@@ -1,4 +1,4 @@
-import Titleandparagraph from "../common/TitleAndParagraph";
+import TitleAndParagraph from "../common/TitleAndParagraph";
 import VideoButton from "../common/VideoButton";
 import Animation from "./Animation";
 
@@ -10,7 +10,7 @@ function Working() {
         alt=""
         className="absolute  left-[-550px]  top-[575px]"
       />
-      <Titleandparagraph
+      <TitleAndParagraph
         title={"How does it work?"}
         stylesForMain={"max-w-[900px]"}
         stylesForPara={"mt-[17px] text-[18px] leading-[28.8px]"}

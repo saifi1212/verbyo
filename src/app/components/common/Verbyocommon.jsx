@@ -1,5 +1,5 @@
 import Button from "./Button";
-import Titleandparagraph from "./TitleAndParagraph";
+import TitleAndParagraph from "./TitleAndParagraph";
 import VideoButton from "./VideoButton";
 
 function Verbyocommon({
@@ -21,7 +21,7 @@ function Verbyocommon({
         className={`${extraClasses} max-w-[1280px] w-full mx-auto   bg-[#EFF0FC] rounded-[20px] mt-[50px]  pt-[49px] pb-[253px] `}
       >
         <div className="max-w-[1036px]  w-full  mx-auto ">
-          <Titleandparagraph
+          <TitleAndParagraph
             title={heading}
             extraClasses={"font-[400] text-[18px]  "}
             extraClassespara={extraClassespara}

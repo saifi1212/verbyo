@@ -1,4 +1,4 @@
-import Titleandparagraph from "../common/TitleAndParagraph";
+import TitleAndParagraph from "../common/TitleAndParagraph";
 
 function KeyBenefits() {
   const maindata = [
@@ -60,7 +60,7 @@ function KeyBenefits() {
   ];
   return (
     <div className="max-w-[1065px] w-full mx-auto mt-[148px] flex flex-col  items-center">
-      <Titleandparagraph
+      <TitleAndParagraph
         title={"Key benefits of social organic campaigns"}
         stylesForMain={"max-w-[900px]"}
         stylesForPara={"mt-[17px] text-[18px] leading-[30px]"}

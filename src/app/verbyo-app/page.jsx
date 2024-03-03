@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Titleandparagraph from "../components/common/TitleAndParagraph";
+import TitleAndParagraph from "../components/common/TitleAndParagraph";
 import Verbyoecosystem from "../components/aboutus/Verbyoecosystem";
 import Ourpledgetotheworld from "../components/aboutus/Ourpledgetotheworld";
 import OurOffices from "../components/aboutus/Ouroffices";
@@ -40,7 +40,7 @@ function Verbyoapp() {
         {/* Verbyo App */}
         <div className="max-w-[1280px] w-full mx-auto   bg-[#EFF0FC] rounded-[20px] mt-[50px]  pt-[49px] pb-[253px] ">
           <div className="max-w-[1036px]  w-full  mx-auto ">
-            <Titleandparagraph
+            <TitleAndParagraph
               title={"Verbyo App"}
               extraClasses={"font-[400] text-[18px]  "}
               extraClassespara={

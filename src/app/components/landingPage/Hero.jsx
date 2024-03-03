@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Swipper from "./Swipper";
 import Button from "../common/Button";
-import Titleandparagraph from "../common/TitleAndParagraph";
+import TitleAndParagraph from "../common/TitleAndParagraph";
 import VideoButton from "../common/VideoButton";
 
 function Hero() {
@@ -10,7 +10,7 @@ function Hero() {
       {/*Title- Organic Word-of-Mouth social media advertising campaigns */}
       
 
-      <Titleandparagraph
+      <TitleAndParagraph
         title={"Organic Word-of-Mouth social media advertising campaigns"}
         para={
           "advertise your brand organically by asking people to share your posts on their personal social media accounts on all major social media platform."
