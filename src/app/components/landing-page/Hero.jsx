@@ -1,12 +1,12 @@
 import Image from "next/image";
-import Swipper from "./Swipper";
 import Button from "../common/Button";
 import CommonHeader from "../common/CommonHeader";
 import VideoButton from "../common/VideoButton";
+import SwiperSec from "./SwiperSec";
 
 function Hero() {
   return (
-    <div className="max-w-[1280px] w-full mx-auto mt-[80px] flex flex-col  items-center">
+    <div className="max-w-[1280px] w-full mx-auto sm:mt-[80px] mt-[51px] flex flex-col  items-center">
       {/*Title- Organic Word-of-Mouth social media advertising campaigns */}
 
       <CommonHeader
@@ -20,14 +20,14 @@ function Hero() {
         stylesForMain={"max-w-[921px] w-full "}
       />
       {/* for Content Creator-video */}
-      <div className="relative max-[1280px] w-full min-h-[786px]">
-        <div className="w-full flex mt-[40px] z-30 flex-col items-start pl-[51px]">
-          <Swipper />
+      <div className="relative max-[1280px] w-full sm:min-h-[786px] min-h-[564px] 2xl:px-0 px-[16.5px]">
+        <div className="absolute w-full flex sm:mt-[40px] mt-[24px] z-30 flex-col items-start sm:pl-[51px] pl-[9px]">
+          <SwiperSec />
         </div>
-        <div className=" w-full  bg-[#EFF0FC] rounded-[16px] absolute bottom-0  min-h-[507px]  items-end flex  pb-[35px]">
+        <div className=" w-full max-w-[1280px] bg-[#EFF0FC] rounded-[16px] mt-[241px] sm:mt-[279px] px-[60px]  min-h-[507px]  items-end flex  sm:pb-[35px] pb-[54px]">
           <div className="w-full justify-center items-center flex flex-col">
             {/* buttons */}
-            <div className="max-w-[384px] w-full flex gap-[16px] justify-center items-center ">
+            <div className="max-w-[384px] w-full flex flex-wrap gap-[16px] justify-center items-center ">
               {/* create Account */}
               <Button
                 text={"Create Account"}
@@ -42,7 +42,7 @@ function Hero() {
               />
             </div>
             {/* trusted by bussiness */}
-            <div className=" w-full flex items-center justify-center gap-[20px] mt-[40px] ">
+            <div className=" w-full flex items-center flex-wrap justify-center sm:gap-[20px] gap-[16px] sm:mt-[40px] mt-[29px] ">
               {/* 1 */}
               <div className="  gap-[5px] flex ">
                 <div>
@@ -80,8 +80,11 @@ function Hero() {
                   </svg>
                 </div>
 
-                <div className=" text-[12px] font-[400] leading-[18px] text-[#1C1934]">
+                <div className="sm:block hidden text-[12px] font-[400] leading-[18px] text-[#1C1934]">
                   Relied on by 1,302 Foundations & NGO’s
+                </div>
+                <div className="sm:hidden block text-[12px] font-[400] leading-[18px] text-[#1C1934]">
+                  Figthing for 1,201 Social Causes
                 </div>
               </div>
             </div>
@@ -89,11 +92,11 @@ function Hero() {
         </div>
       </div>
       {/* Avon-UNICEF */}
-      <div className="max-w-[1150px] w-full flex gap-[20px] justify-between mt-[92px]  items-center z-20  ">
+      <div className="max-w-[1150px] w-full flex flex-wrap xl:gap-[60px] gap-[40px] sm:mt-[92px] mt-[103px] xl:justify-between justify-center items-center z-20  xl:px-0 px-[38px]">
         <div className="max-w-[144px] w-full">
           <Image width={144} height={60} src={"/avon.svg"} />
         </div>
-        <div className="max-w-[240px] w-full">
+        <div className="max-w-[240px] w-full sm:block hidden">
           <Image width={240} height={60} src={"/unicef.svg"} />
         </div>
         <div className="max-w-[132px] w-full">
@@ -109,7 +112,7 @@ function Hero() {
         <div className="max-w-[101px] w-full">
           <Image width={101} height={60} src={"/under-armor.svg"} />
         </div>
-        <div className="max-w-[130px] w-full">
+        <div className="max-w-[130px] w-full sm:block hidden">
           <Image width={130} height={60} src={"/northface.svg"} />
         </div>
       </div>

@@ -37,28 +37,30 @@ function Footer({ marginTop, advertising }) {
   ];
   return (
     <div
-      className={` w-full  flex justify-between   bg-[#262F61] ${marginTop}   z-10 relative`}
+      className={`w-full flex justify-between bg-[#262F61] ${marginTop} px-[15px] relative`}
     >
       {!advertising && (
         <img
           src="footer/ornument-circle.svg"
           alt=""
-          className="absolute inset-x-0 mx-auto z-[-1] top-[-193px]"
+          className="absolute inset-x-0 mx-auto z-[-1] top-[-193px] xl:max-w-[468px] lg:max-w-[400px] max-w-[350px] w-full"
         />
       )}
-      {advertising&&<div className="absolute inset-x-0 mx-auto z-[2] top-[-363px] w-full max-w-[1286px]">
-        {advertising}
-      </div>}
+      {advertising && (
+        <div className="absolute inset-x-0 mx-auto z-[2] top-[-363px] w-full max-w-[1286px]">
+          {advertising}
+        </div>
+      )}
       <div
         className={`max-w-[1290px] bg-[#262F61]  w-full mx-auto ${
           advertising ? "min-h-[581px]" : ""
-        } flex justify-end  pt-[57px] pb-[31px] flex-col gap-[82px] `}
+        } flex  justify-end  pt-[57px] pb-[31px] flex-col gap-[82px] `}
       >
         <div className="w-full mx-auto flex justify-between  flex-col gap-[82px] ">
-          <div className="max-w-[1290px] w-full flex justify-between  ">
+          <div className="max-w-[1290px] w-full flex items-center justify-between   gap-[40px] xl:flex-row flex-col">
             {/* logo and company */}
             <div>
-              <div className="max-w-[285px] w-full flex flex-col justify-center gap-[14px] items-center">
+              <div className="xl:max-w-[285px] max-w-[335px] w-full flex flex-col justify-center gap-[14px] items-center">
                 <Link
                   href={"/"}
                   className="max-w-[285px] w-full flex justify-center items-center gap-[10px]"
@@ -82,12 +84,12 @@ function Footer({ marginTop, advertising }) {
               </div>
             </div>
             {/* products all */}
-            <div className="max-w-[781px] w-full flex justify-between text-[#fff]  ">
+            <div className="max-w-[781px] w-full flex gap-[60px] md:justify-between justify-start flex-wrap text-[#fff]  ">
               {maindata.map((items, id) => {
                 return (
                   <Link
                     href={items.link}
-                    className={` ${popins.className}  max-w-[165px] w-full flex flex-col gap-[12px] `}
+                    className={` ${popins.className}  max-w-[165px] w-fit flex flex-col gap-[12px] `}
                   >
                     <div className="text-[20px] font-[600] ">{items.title}</div>
                     <div className="w-full flex flex-col gap-[2px] justify-center ">

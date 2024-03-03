@@ -10,16 +10,16 @@ import Header from "./components/common/Header";
 export default function Home() {
   return (
     <>
-    <div className="max-w-[1920px] w-full mx-auto overflow-hidden">
-      <Header />
-      <Hero />
-      <Working />
+      <div className="max-w-[1920px] w-full mx-auto overflow-hidden">
+        <Header />
+        <Hero />
+        {/* <Working />
       <Advertising />
       <OrganicDistribution />
       <KeyBenefits />
-      <FreeAdvertising />
-    </div>
-      <Footer marginTop={"mt-[467px]"}/>
+      <FreeAdvertising /> */}
+      </div>
+      <Footer marginTop={"mt-[467px]"} />
     </>
   );
 }
