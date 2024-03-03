@@ -6,7 +6,7 @@ function Working() {
   return (
     <div className="max-w-[1280px] w-full mx-auto mt-[121px] flex flex-col  items-center relative">
       <img
-        src="footer/OrnumentCircle.svg"
+        src="footer/Ornument-circle.svg"
         alt=""
         className="absolute  left-[-550px]  top-[575px]"
       />

@@ -41,7 +41,7 @@ function Footer({ marginTop, advertising }) {
     >
       {!advertising && (
         <img
-          src="footer/OrnumentCircle.svg"
+          src="footer/Ornument-circle.svg"
           alt=""
           className="absolute inset-x-0 mx-auto z-[-1] top-[-193px]"
         />
