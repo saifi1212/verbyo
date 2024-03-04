@@ -1,3 +1,4 @@
+import { popins } from "@/app/layout";
 import TitleAndParagraph from "../common/CommonHeader";
 
 function KeyBenefits() {
@@ -59,17 +60,29 @@ function KeyBenefits() {
     // }
   ];
   return (
-    <div className="max-w-[1065px] w-full mx-auto mt-[148px] flex flex-col  items-center">
+    <div className="max-w-[1065px] w-full mx-auto mt-[148px] flex flex-col xl:px-0 px-[20px] items-center">
       <TitleAndParagraph
         title={"Key benefits of social organic campaigns"}
+        stylesForTitle={
+          "sm:text-[36px] text-[24px] leading-[31.13px]  font-[700] sm:leading-[46.69px]"
+        }
         stylesForMain={"max-w-[900px]"}
-        stylesForPara={"mt-[17px] text-[18px] leading-[30px]"}
+        stylesForPara={"mt-[17px] sm:block  hidden text-[18px]  leading-[30px]"}
         para={
           "Organic distribution campaigns can be a powerful way to build and engage an audience, foster trust, and achieve sustainable growth without the immediate costs associated with paid advertising strategies"
         }
       />
-
-      <div className="mt-[69px] w-full grid grid-cols-3  gap-x-[60px] gap-y-[52px]">
+      <p
+        className={`${popins.className} mt-[20px] w-full text-[#5E5D6D] text-center leading-[25.6px] sm:hidden block`}
+      >
+        The people posting your campaign on their social media accounts are
+        everyday individuals.{" "}
+        <span className="text-[#000] capitalize">
+          They represent around 82% of social media users on platforms,
+        </span>{" "}
+        which makes them a powerful resources in advertising.
+      </p>
+      <div className="mt-[69px] w-full grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1  lg:max-w-full sm:max-w-[680px] max-w-[315px]  xl:gap-x-[60px] md:gap-x-[50px] gap-x-[30px] xl:gap-y-[52px] md:gap-y-[42px] gap-y-[76px]">
         {maindata.map((items, id) => {
           return (
             <div className="max-w-[315px] w-full flex gap-[20px] flex-col cursor-pointer hover:scale-105 transition-transform duration-300 ease-in-out  ">
@@ -82,7 +95,7 @@ function KeyBenefits() {
 
               {/* content */}
               <div className="max-w-[315px] w-full flex flex-col gap-[8px]">
-                <div className=" w-full font-[700] text-[24px] leading-[24.4px]">
+                <div className=" w-full font-[700] xl:text-[24px] text-[22px] xl:leading-[24.4px] leading-[20.24px]">
                   {items.title}
                 </div>
                 <div className="max-w-[315px] w-full font-[400] text-[18px] text-[#5E5D6D]">

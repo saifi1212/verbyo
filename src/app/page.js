@@ -14,12 +14,12 @@ export default function Home() {
         <Header />
         <Hero />
         {/* <Working />
-      <Advertising />
+      <Advertising />*/}
       <OrganicDistribution />
       <KeyBenefits />
-      <FreeAdvertising /> */}
+        <FreeAdvertising />
       </div>
-      <Footer marginTop={"mt-[467px]"} />
+      <Footer marginTop={"xl:mt-[467px] mt-[189px]"} />
     </>
   );
 }
