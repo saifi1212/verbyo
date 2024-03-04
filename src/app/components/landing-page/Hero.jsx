@@ -21,9 +21,9 @@ function Hero() {
       />
       {/* for Content Creator-video */}
       <div className="relative max-[1280px] w-full sm:min-h-[786px] min-h-[564px] 2xl:px-0 px-[16.5px]">
-        <div className="absolute w-full flex sm:mt-[40px] mt-[24px] z-30 flex-col items-start sm:pl-[51px] pl-[9px]">
+        {/* <div className="absolute w-full bg-black flex sm:mt-[40px] mt-[24px] z-30 flex-col items-start sm:pl-[51px] pl-[9px]">
           <SwiperSec />
-        </div>
+        </div> */}
         <div className=" w-full max-w-[1280px] bg-[#EFF0FC] rounded-[16px] mt-[241px] sm:mt-[279px] px-[60px]  min-h-[507px]  items-end flex  sm:pb-[35px] pb-[54px]">
           <div className="w-full justify-center items-center flex flex-col">
             {/* buttons */}

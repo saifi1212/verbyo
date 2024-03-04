@@ -18,10 +18,10 @@ function SwiperSec() {
   ];
   return (
     <div>
-      <div className="sm:max-w-[1713px] max-w-[632px] w-full">
         <Swiper
+        slidesOffsetBefore={371}
           modules={[Pagination]}
-          spaceBetween={10}
+          spaceBetween={50}
           slidesPerView={2}
           pagination={{ clickable: true }}
           // scrollbar={{ draggable: false }}
@@ -29,7 +29,7 @@ function SwiperSec() {
           onSlideChange={() => console.log("slide change")}
         >
           {swiperSlide.map((item, index) => (
-            <SwiperSlide key={index + "slide"}>
+            <SwiperSlide key={index + "slide"} className="w-fit">
               <img
                 src={item}
                 alt=""
@@ -41,7 +41,6 @@ function SwiperSec() {
           <div class="swiper-pagination"></div>
         </Swiper>
       </div>
-    </div>
   );
 }
 

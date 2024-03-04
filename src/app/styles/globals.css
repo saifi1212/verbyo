@@ -5,13 +5,17 @@
 
 .swiper{
    padding-bottom: 35px !important;
+   max-width: 1920px;
+   width: 100%;
 }
-.swiper-container {
+.swiper-slide{
+  max-width: 860px;
+}
+/* .swiper-container {
     overflow: visible;
-  }
+  } */
   .swiper-pagination {
     z-index: 10 !important;
-    left: -268px !important;
     max-height: 10px;
    
   }
