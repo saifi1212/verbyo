@@ -68,7 +68,7 @@ const OrganicDistribution = () => {
         </div>
         {/* social-network */}
         <div className="flex xl:gap-[22px] justify-center  xl:flex-nowrap flex-wrap">
-          <div className="max-w-[846px]  w-fit bg-[#EFF0FC]  flex flex-wrap-reverse  pl-[32px] 2xl:pr-[48px] pr-[38px] mt-[15px] rounded-[20px] pt-[43px] pb-[23px] ">
+          <div className="max-w-[846px]  w-fit bg-[#EFF0FC]  flex xl:flex-nowrap flex-wrap-reverse  pl-[32px] 2xl:pr-[48px] pr-[38px] mt-[15px] rounded-[20px] pt-[43px] pb-[23px] ">
             {/* content */}
             <div className="max-w-[418px] w-full   rounded-[20px]  flex flex-col gap-[39px] mt-[100px] ">
               <div className="max-w-[418px] w-full  flex flex-col gap-[15px]">
