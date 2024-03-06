@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { popins } from "../../layout";
+import FreeAdvertising from "../landing-page/FreeAdvertising";
 
 function Footer({ marginTop, advertising }) {
   const maindata = [
@@ -32,7 +33,7 @@ function Footer({ marginTop, advertising }) {
       title: "Company",
       titlepage1: "About us",
       titlepage2: "Careers",
-      link: "/aboutus",
+      link: "/about-us",
     },
   ];
   return (
@@ -48,7 +49,7 @@ function Footer({ marginTop, advertising }) {
       )}
       {advertising && (
         <div className="absolute inset-x-0 mx-auto z-[2] top-[-363px] w-full max-w-[1286px]">
-          {advertising}
+         <FreeAdvertising/>
         </div>
       )}
       <div
@@ -67,7 +68,7 @@ function Footer({ marginTop, advertising }) {
                 >
                   {/*  logo*/}
                   <div className="max-w-[38px] w-full">
-                    <img src="/footer-logo.svg" alt="" />
+                    <img src="/landing/footer-logo.svg" alt="" />
                   </div>
                   <div className="w-full font-[400] text-[20px] leading-[25px] text-[#fff] ">
                     <span className="font-[400]">Verbyo</span> for{" "}

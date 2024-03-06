@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Button from "../common/Button";
-import CommonHeader from "../common/CommonHeader";
+import TitleAndParagraph from "../common/TitleAndParagraph";
 import VideoButton from "../common/VideoButton";
 import SwiperSec from "./SwiperSec";
 
@@ -9,7 +9,7 @@ function Hero() {
     <div className="max-w-[1280px] w-full mx-auto sm:mt-[80px] mt-[51px] flex flex-col  items-center">
       {/*Title- Organic Word-of-Mouth social media advertising campaigns */}
 
-      <CommonHeader
+      <TitleAndParagraph
         title={"Organic Word-of-Mouth social media advertising campaigns"}
         para={
           "advertise your brand organically by asking people to share your posts on their personal social media accounts on all major social media platform."
@@ -94,26 +94,26 @@ function Hero() {
       {/* Avon-UNICEF */}
       <div className="max-w-[1150px] w-full flex flex-wrap xl:gap-[60px] gap-[40px] sm:mt-[92px] mt-[103px] xl:justify-between justify-center items-center z-20  xl:px-0 px-[38px]">
         <div className="max-w-[144px] w-full">
-          <Image width={144} height={60} src={"/avon.svg"} />
+          <Image width={144} height={60} src={"/landing/avon.svg"} />
         </div>
         <div className="max-w-[240px] w-full sm:block hidden">
-          <Image width={240} height={60} src={"/unicef.svg"} />
+          <Image width={240} height={60} src={"/landing/unicef.svg"} />
         </div>
         <div className="max-w-[132px] w-full">
-          <Image width={132} height={60} src={"/ocean-cleanup 1.svg"} />
+          <Image width={132} height={60} src={"/landing/ocean-cleanup.svg"} />
         </div>
         <div className="max-w-[101px] w-full">
           <Image
             width={101}
             height={60}
-            src={"/580b57fcd9996e24bc43c525.svg"}
+            src={"/landing/580b57fcd9996e24bc43c525.svg"}
           />
         </div>
         <div className="max-w-[101px] w-full">
-          <Image width={101} height={60} src={"/under-armor.svg"} />
+          <Image width={101} height={60} src={"/landing/under-armor.svg"} />
         </div>
         <div className="max-w-[130px] w-full sm:block hidden">
-          <Image width={130} height={60} src={"/northface.svg"} />
+          <Image width={130} height={60} src={"/landing/northface.svg"} />
         </div>
       </div>
 

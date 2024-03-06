@@ -12,14 +12,10 @@ export default function Home() {
   return (
     <>
       <div className="relative max-w-[1920px] w-full mx-auto overflow-hidden">
-        {/* <div className="w-[100vw] mx-auto h-10 bg-black absolute left-0"></div> */}
-        <div className="absolute cursor-grab max-w-[1920px] w-full top-[379px] z-30 ">
-          <SwiperSec />
-        </div>
         <Header />
         <Hero />
-        {/* <Working />
-      <Advertising />*/}
+        <Working />
+        <Advertising />
         <OrganicDistribution />
         <KeyBenefits />
         <FreeAdvertising />

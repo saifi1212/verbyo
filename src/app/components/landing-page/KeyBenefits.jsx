@@ -1,5 +1,5 @@
 import { popins } from "@/app/layout";
-import TitleAndParagraph from "../common/CommonHeader";
+import TitleAndParagraph from "../common/TitleAndParagraph";
 
 function KeyBenefits() {
   const maindata = [

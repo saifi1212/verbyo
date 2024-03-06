@@ -1,4 +1,4 @@
-import TitleAndParagraph from "../common/CommonHeader";
+import TitleAndParagraph from "../common/TitleAndParagraph";
 import VideoButton from "../common/VideoButton";
 import Animation from "./Animation";
 

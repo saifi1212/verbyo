@@ -4,7 +4,7 @@ import Button from "./Button";
 
 function Header() {
   return (
-    <div className="mx-auto max-w-[1339px] w-full  flex justify-between mt-[41px] 2xl:px-[0px] pl-[16px] pr-[19px] xl:gap-[61px] gap-[33px]">
+    <div className="mx-auto max-w-[1318px] w-full  flex justify-between mt-[41px] 2xl:px-[0px] pl-[16px] pr-[19px] xl:gap-[61px] gap-[33px]">
       {/* left-side */}
       <Link
         href={"/"}
@@ -12,7 +12,7 @@ function Header() {
       >
         {/* logo */}
         <div className="max-w-[35px] w-full">
-          <Image width={35} height={35} src={"/logo.svg"} />
+          <Image width={35} height={35} src={"/landing/logo.svg"} />
         </div>
 
         {/* Name */}
@@ -34,7 +34,7 @@ function Header() {
             Marketing Campaigns
           </Link>
           <Link
-            href={"/"}
+            href={"/ads-manager"}
             className="  text-[#5E5D6D] font-[400] text-[14px] leading-[21px] hover:text-[#000] hover:font-medium  transition-all duration-300 ease-in"
           >
             Ad Manager
